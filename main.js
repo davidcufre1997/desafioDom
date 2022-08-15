@@ -1,14 +1,19 @@
-function verificar()
 
-var contraseña= document.getElementById("contra").value
-contraseña=parseInt("contraseña")
+function verificar(){
+    
 
-var confirmar= document.getElementById("confirm").value
-confirmar=parseInt("confirm")
+let contraseña= document.getElementById("contra").value
+
+
+let confirmar= document.getElementById("confirm").value
+
 
 if (contraseña==confirmar){
-alert("la contraseña es valida")}
+alert("La contraseña es correcta. En unos segundos te llegara un mail de validacion")}
+
+else{
+    alert("La confirmacion de su contraseña es incorrecta, por favor vuelva a intentarlo")
+}
 
 
-
-
+}
